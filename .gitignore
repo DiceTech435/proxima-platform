@@ -1,0 +1,85 @@
+#General, Environment files (important!)
+.env
+*.log
+.env.*
+
+#Node/React
+node_modules/
+dist/
+build/
+src/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+#PHP/Laravel Dependencies
+vendor/
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+storage/*.key
+/storage/*.log
+/storage/debugbar/*
+
+# OS/system files/System files
+.DS_Store
+Thumbs.db 
+desktop.ini
+
+#IDE / Editor
+.idea/
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+#Misc
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+
+
+# generated types
+.astro/
+
+# unwanted types
+**/env.d.ts
+
+# System / Log files
+*.DS_Store
+*.log
+
+# Archives
+*.zip
+
+# Sass Cache
+.sass-cache
+
+# Project files
+.idea
+nbproject
+nbproject/private
+.vscode/
+.vs/
+
+# Node / Bower
+node_modules/
+bower_components/
+
+# Docs
+/docs/_site/
+/docs/vendor/
+/docs/.bundle/
+/docs_html/
+.jekyll-cache/
+.jekyll-metadata
+
+# ETC
+TODO
+test.html
+ad.js
+/.cache/
