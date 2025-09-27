@@ -14,7 +14,6 @@ body {
 
 
 .register-page .register-bg {
-  height: 700px;
   background: linear-gradient(to bottom, transparent 0%, #1f2251 100%);
   width: 700px;
   position: relative;
@@ -36,9 +35,9 @@ body {
   height: 300px;
   width: 300px;
   background-image: url("../../assets/img/square1.png");
-  top: 175px;
-  right: 150px;
-  opacity: 0.8;
+  bottom: 145px;
+  right: -320px;
+  opacity: 0.2;
 }
 
 .register-page .square-2 {
@@ -81,8 +80,8 @@ body {
   width: 70px;
   background-image: url("../../assets/img/square5.png");
   opacity: 0.9;
-  top: 105px;
-  right: 20px;
+  top: -85px;
+  right: -200px;
 }
 
 .register-page .square-7 {
@@ -91,7 +90,7 @@ body {
   background-image: url("../../assets/img/square5.png");
   left: -100px;
   top: 100px;
-  opacity: .4;
+  opacity: .2;
 }
 
 .register-page .square-8 {

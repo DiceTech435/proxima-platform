@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Proxima || Login
+    Proxima || Register
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -73,6 +73,14 @@
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
+                      <i class="now-ui-icons users_circle-08"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username...">
+                </div>
+                <div class="input-group no-border input-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
                       <i class="now-ui-icons ui-1_email-85"></i>
                     </span>
                   </div>
@@ -89,7 +97,7 @@
               </div>
               <div class="card-footer text-center">
                 
-                <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Login &nbsp; <i class="now-ui-icons arrows-1_share-66"></i> </a>
+                <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Register &nbsp; <i class="now-ui-icons arrows-1_share-66"></i> </a>
                 <div class="pull-left">
                   <h6>
                     <a href="#pablo" class="link">Need Help?</a>
@@ -97,7 +105,7 @@
                 </div>
                 <div class="pull-right">
                   <h6>
-                    <a href="register" class="link">Create Account</a>
+                    <a href="login" class="link">Login</a>
                   </h6>
                 </div>
             </form>
